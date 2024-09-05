@@ -1,7 +1,20 @@
+import ConteudoSobre from "../Componentes/ConteudoSobre";
+import ImagemS from "../Componentes/ImagemS";
+import ImagemS2 from "../Componentes/ImagemS2";
+
+
 function Sobre() {
-    return (   
-        <h1>Página Sobre</h1>
-     );
+    return (
+        <div className="sobre-info">
+            <section id='info'>
+                <ConteudoSobre />
+                <div className="imgS">
+                    <ImagemS />
+                </div>
+                <ImagemS2 />
+            </section>
+        </div>
+    );
 }
 
 export default Sobre   

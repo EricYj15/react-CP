@@ -13,9 +13,14 @@ body {
   padding: 20px;
 }
 
+.sobreInfo{
+  min-height: calc(100vh - 200px);
+  padding: 20px;
+}
+
 header {
-  background-color: #f9f9f9;
-  color: white;
+  background-color: #ffffff;
+  color: rgb(255, 255, 255);
   padding: 20px;
   height: 100px;
   display: flex;
@@ -69,10 +74,13 @@ nav ul li a {
 .personal-info h2{
   font-size: 50px;
   font-weight: 700;
+  padding-bottom: 30px;
 }
 
 .personal-info p{
   font-size: 20px;
+  padding-bottom: 30px;
+  max-width: 400px;
 }
 
 .personal-info a{
@@ -88,6 +96,7 @@ nav ul li a {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 100px;
+  border-style: none;
 }
 
 
@@ -98,7 +107,6 @@ nav ul li a {
 .skill-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
   border-radius: 16px;
   padding: 20px;
 }
@@ -148,6 +156,17 @@ footer {
   justify-content: space-between;
 }
 
+.row2 {
+  display: flex;
+  align-items: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.imgS {
+  padding-right: 50px;
+}
+
 .card { 
   display: flex;
   flex-direction: column;
@@ -168,4 +187,18 @@ footer {
 .cont {
   font-size: 18px;
   font-weight: 400;
+}
+
+.sobre-info h2{
+  font-size: 60px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  max-width: 600px;
+}
+
+.sobre-info p{
+  font-size: 18px;
+  padding-bottom: 30px;
+  max-width: 400px;
+  font-weight: 400px;
 }
