@@ -1,7 +1,11 @@
 function Contato() {
-    return (   
-        <h1>Página Contato</h1>
-     );
+    return (
+        <div>
+            <section>
+                <h1>Página Contato</h1>
+            </section>
+        </div>
+    );
 }
 
 export default Contato   

@@ -141,6 +141,7 @@ nav ul li a {
   padding: 10px;
   cursor: pointer;
 }
+
 footer {
   background-color: #2980b9;
   width: 100%;
@@ -199,6 +200,26 @@ footer {
 .sobre-info p{
   font-size: 18px;
   padding-bottom: 30px;
-  max-width: 400px;
+  max-width: 500px;
   font-weight: 400px;
+}
+
+.rowS {
+  padding-right: 30px;
+}
+
+.planos {
+  background-color: #F4F2F2;
+}
+
+.container h1{
+  font-weight: 400;
+  font-size: 28px;
+  padding: 40px;
+}
+
+.container{
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
 }
