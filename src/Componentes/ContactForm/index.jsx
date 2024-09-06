@@ -1,22 +1,13 @@
 function ContactForm() {
   return (
     <section id="contact">
-      
-
-        <div  className="row3">
-        <p>Nome:</p>
+      <h2>Entre em Contato</h2>
+      <form>
         <input type="text" placeholder="Nome" />
-        </div>
-
-        <div className="row3">
-        E-mail:
         <input type="email" placeholder="Email" />
-        </div>
-
-
         <textarea placeholder="Mensagem" />
-        <button id="botao" type="submit">Enviar</button>
-      
+        <button type="submit">Enviar</button>
+      </form>
     </section>
   );
 }

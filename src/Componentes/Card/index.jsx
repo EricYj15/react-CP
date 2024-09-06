@@ -13,7 +13,7 @@ export default function Card({ dados }) {
                             }
                         }
                     >
-                        <div className="card">
+                        <div className="skillcard">
                             <div className="row">
                                 <p>0{index + 1}</p>
                                 <img
