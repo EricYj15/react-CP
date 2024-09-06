@@ -67,7 +67,7 @@ nav ul li a {
 
 #info {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   padding: 20px;
 }
 
@@ -118,37 +118,60 @@ nav ul li a {
 }
 
 #contact{
-  text-align: center;
-}
-#contact form {
   display: flex;
+  text-align: left;
   flex-direction: column;
-  align-items: center;
 }
 
-#contact form input,
-#contact form textarea{
-  margin: 10px 40px;
-  width: 50%;
-  padding: 10px;
-  border-radius: 100px;
-  
+#contact label {
+  font-size: 18px;
 }
-#contact form button {
-  font-size: 20px;
-  background-color: #333333;
+
+.div_contact {
+  flex-direction: column;
+}
+
+#contact input {
+  margin-left: 10px;
+}
+
+#contact div.row777, #contact div.row666, #contact div.row888 {
+  text-align: left;
+  margin: 60px 0px 10px 60px;
+}
+
+#contact div.row888 {
+  width: 100%;
+}
+
+#contact input, #contact textarea {
+  width: 500px;
+} 
+
+#contact input {
   border: none;
-  color: white;
-  padding: 10px 100px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  border-radius: 6px;
-  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 40px;
+  padding: 10px;
+  transition: all 0.4s;
 }
+
+#contact textarea{
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 29px;
+  padding: 100px 150px 100px 50px;
+  transition: all 0.4s;
+}
+
+#contact input:hover, #contact textarea:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#contact .botao {
+  text-align: right;
+}
+
 footer {
   background-color: #2980b9;
   width: 100%;
@@ -166,16 +189,20 @@ footer {
 
 .row2 {
   display: flex;
-  align-items: row;
-  justify-content: space-between;
+  align-items:baseline;
+  
+  margin: 8px;
+  border-radius: 100px;
 }
 
 
 .row3 {
   display: flex;
   align-items: row;
-  border-radius: 100px;
-  padding: 0px;
+  border-radius: 500px;
+  padding: 10px;
+  margin: 100px;
+
 }
 
 .imgS {
@@ -234,7 +261,7 @@ footer {
 }
 
 .coluna h1 {
-  padding: 50px;
+  padding-bottom: 50px;
 
 }
 
@@ -253,3 +280,26 @@ footer {
   border-radius: 100px;
   border-style: none;
 }
+
+.box {
+  /* width: 50%; */
+  /* float: left; */
+  height: 500px;/*Altura da linha*/
+  color: #B9B7B7;
+ }
+ 
+ .linha-vertical {
+  border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+  box-sizing: border-box;
+ }
+
+.contato-img img {
+  width: auto;
+  height: 50px;
+  top: 530.2px;
+  left: 125px;
+  margin: 10px;
+
+
+}
+

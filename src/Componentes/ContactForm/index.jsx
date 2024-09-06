@@ -2,20 +2,28 @@ function ContactForm() {
   return (
     <section id="contact">
       
+<div className="div_contact">
+  <div  className="row777">
+      <label htmlFor="">Nome: </label>
+      <input type="text"  />
+  </div>
+    <div className="row666">
+      <label htmlFor="">Email: </label>
+      <input type="email"  />
+    </div>
+    <div className="row888">
+    <label htmlFor="">Texto: </label>
+      <br />
+      <textarea className="txt"  />
+      <br />
+    </div>
+</div>
 
-        <div  className="row3">
-        <p>Nome:</p>
-        <input type="text" placeholder="Nome" />
-        </div>
-
-        <div className="row3">
-        E-mail:
-        <input type="email" placeholder="Email" />
-        </div>
-
-
-        <textarea placeholder="Mensagem" />
-        <button id="botao" type="submit">Enviar</button>
+    <div className="text">
+      <div className="botao">
+      <button id="botao" type="submit">Enviar</button>
+      </div>
+    </div>
       
     </section>
   );

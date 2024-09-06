@@ -14,6 +14,12 @@ function Contato() {
         <img src="discord.png" alt="" />
  </div>
 </div>
+<div class="box">
+
+</div>
+<div class="box linha-vertical">
+
+</div>
         <ContactForm/>
         </section>
         </div>
