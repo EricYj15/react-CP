@@ -2,7 +2,7 @@
 function Imagem() {
   return (
     <div>
-      <img src="public\img.png" style={{ width: '550px', height: 'auto' }} />
+      <img src="img.png" style={{ width: '550px', height: 'auto' }} />
     </div>
   );
 }
