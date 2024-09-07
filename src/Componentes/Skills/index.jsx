@@ -5,13 +5,13 @@ function Skills({ skills }) {
   const habilidades = [
     {
       titulo: "Youtube",
-      icone: "y.png",
+      icone: "/public/y.png",
       conteudo: "Produza conteúdo cativante e conquiste seu público com vídeos de alta qualidade no maior palco digital do mundo.",
       color: "#F1C2B0"
     },
     {
       titulo: "Tiktok",
-      icone: "t.png",
+      icone: "/public/t.png",
       conteudo: "Faça sua criatividade brilhar em vídeos curtos e envolventes que vão cativar a comunidade global do TikTok.",
       tempoxp: "1 meses",
       color: "#F9EB98",
@@ -19,14 +19,14 @@ function Skills({ skills }) {
     },
     {
       titulo: "Facebook",
-      icone: "f.png",
+      icone: "/public/f.png",
       conteudo: "Conecte-se com sua audiência de forma autêntica e impactante através de vídeos que se destacam no feed do Facebook.",
       tempoxp: "0 meses",
       color: "#C0D9DD"
     },
     {
       titulo: "Instagram",
-      icone: "i.png",
+      icone: "/public/i.png",
       conteudo: "Compartilhe suas histórias de maneira única e conquiste milhões de likes no Instagram utilizando Stories e Reels.",
       tempoxp: "0 meses",
       color: "#6975E8"
